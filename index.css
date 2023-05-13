@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #F5F5F5;
+  font-family: 'Titillium Web';
+  font-size: 1.5rem;
+  color: rgb(4, 3, 70);
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+h2,
+h3,
+h4 {
+  color: rgb(4, 3, 70);
+}
+
+.mainContainer {
+  display: flex;
+  width: 99%;
+  margin-top: 2rem;
+}
+
+.left {
+  flex: 0 0 80%;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  text-align: justify;
+
+}
+
+
+
+
+.right {
+  flex: 0 0 20%;
+  background-color: rgba(4, 3, 70, 0.807);
+  color: #F5F5F5;
+  padding-left: 1rem;
+  border-radius: 16px;
+  margin-left: 1rem;
+}
+
+.asideTitle {
+  color: #70b5d7;
+  font-weight: bold;
+
+}
+
+li {
+  list-style: none;
+}
+
+.mainText {
+  font-weight: 600;
+  padding-top: 1.5rem;
+}
+
+.regTxt>ul>li {
+  list-style: disc;
+  margin-left: 2rem;
+}
+
+.subtitle {
+  margin-top: 2rem;
+}
+
+.date {
+  margin-bottom: 1rem;
+  color: rgb(141, 132, 120);
+}
+
+a {
+  color: rgb(222, 173, 113);
+  font-weight: bold;
+}
