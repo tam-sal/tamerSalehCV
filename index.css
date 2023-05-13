@@ -14,7 +14,7 @@ body {
   background-color: #F5F5F5;
   font-family: 'Titillium Web';
   font-size: 1.5rem;
-  color: rgb(4, 3, 70);
+  color: #082a4d;
   padding: 2rem;
 }
 
@@ -25,7 +25,7 @@ header {
 h2,
 h3,
 h4 {
-  color: rgb(4, 3, 70);
+  color: #082a4d;
 }
 
 .mainContainer {
@@ -47,7 +47,7 @@ h4 {
 
 .right {
   flex: 0 0 20%;
-  background-color: rgba(4, 3, 70, 0.807);
+  background-color: #082a4d;
   color: #F5F5F5;
   padding-left: 1rem;
   border-radius: 16px;
